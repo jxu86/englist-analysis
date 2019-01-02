@@ -12,6 +12,8 @@ class IcibaService(object):
         info = req.json()
         return info
 
+    def import_word_from_csv(self):
+        pass
 
 
 def main():
